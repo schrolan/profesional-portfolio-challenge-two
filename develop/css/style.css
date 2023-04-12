@@ -15,6 +15,7 @@
     border-style: groove;
 }
 .centered {
+    font-size: large;
     outline: 5px dotted;
     border: 5px;
     border-style: groove;
@@ -23,9 +24,43 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: aqua;
-    color: gold;
+    color: goldenrod;
   }
 
   body {
     background-color: aqua;
   }
+
+  nav ul li {
+    display: inline-block;
+    background-color: aqua;
+    color: goldenrod;
+    outline: 5px dotted;
+    border: 5px;
+    border-style: groove;   
+}
+
+.about-me {
+    margin-top: 200px;
+}
+
+.about-me .about-me-title {
+    font-size: var(--titleFontSize);
+    border: var(--borderStyle);
+    background-color: var(--titleBackgroundColor);
+    float: inline-start;
+}
+
+.about-me .about-me-text {
+    font-size: var(--textFontSize);
+    border: var(--borderStyle);
+    background-color: orange;
+    display: block;
+    margin-top: 200px;
+}
+
+.about-me .program-pic {
+    border: var(--borderStyle);
+    float: left;
+    height: 350px;
+}
