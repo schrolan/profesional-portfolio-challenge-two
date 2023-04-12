@@ -1,0 +1,31 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: pink;
+}
+
+.image {
+    height: 200px;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-style: groove;
+}
+.centered {
+    outline: 5px dotted;
+    border: 5px;
+    border-style: groove;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    color: gold;
+  }
+
+  body {
+    background-color: aqua;
+  }
