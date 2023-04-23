@@ -1,52 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lance Schroeder: Porfolio</title>
-    <link rel="stylesheet" href="css/style.css"
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lance Schroeder: Portfolio</title>
 </head>
+
 <body>
-    <div class="container">
-            <img src="../assets/90s_style_background_with_pastel_geometric_shapes_generated.jpg" class="image"/>
-            
-            <div class="centered">
-                
-                <h1>Lance <span>Charles</span> Schroeder</h1>
-            
-                <h2>First Professional Portfolio: Attempt 2!</h2>
-
-            </div>
-            <nav class="nav-bar">
+    <nav class="header">
+        <h1>Lance<span class="seo">Charles</span>Schroeder</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#previous-work">Previous Work</a>
+                </li>
+                <li>
+                    <a href="#contact-info">Contact Info</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <article class="hero"></article>
+    <div class="content">
+        <section id="about-me" class="about-me">
+            <img src="../assets/program-pic.JPG" alt="Picture of me Lance Schroeder. I am a 27 year old man with black rimmed rectangle glasses, short hair, and a full beard. I also am wearing a purple shirt." class="float-left" />
+            <h2>About Me</h2>
+            <p>
+                I am currently working through the class work for my boot camp again on my own time. I passed the UW full stack development boot camp but I wanted the time to work through it again to get a better understanding of the course work. I am excited to get into a job that allows me to be a developer.
+            </p>
+        </section>
+        <section id="previous-work" class="previous-work">
+            <h2>Previous Work</h2>
+            <p>
+                The following three images are of three projects that I worked on in the bootcamp that I was in. The first one is a site that uses an API that allows users to look up books or have one suggested to them from the New York best times seller list. The second site is a site that allows users to interact with each other with the main interest being mushrooms that are found in the wild. The third one is a calander site that allows users to schedule events. Clicking on an image of the project will take you to the github repository.
+            </p>
+            <a href="https://github.com/camdenz2k3/Toss-Me-A-Book" target="_blank">
+            <img src="../assets/Screenshot 2023-04-18 at 19-24-41 Toss Me A Book.png" class="float-bottom-left">
+            <a href="https://github.com/eric-simmons/shroomies" target="_blank">
+            <img src="../assets/Screenshot 2023-04-18 at 19-23-23 Shroomies.png" class="float-bottom-center" />
+            <a href="https://github.com/herka10/assignmint" target="_blank">
+            <img src="../assets/assignment.jpg" class="float-bottom-right" />
+        </section>
+        <section id="contact-info" class="contact-info">
+            <h2>Contact Info</h2>
+            <p>
                 <ul>
-                    <li>
-                        <a href="#about-me">About me</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#previous-work">Previous work</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#contact-info">Contact information</a>
-                    </li>
+                    <li>Email: schrolan000@gmail.com</li>
+                    <li>Phone Number: (262) 744-7836</li>
                 </ul>
-            </nav>
-
+            </p>
+        </section>
     </div>
-    <div class="container">
-
-        <article id="about-me" class="about-me">
-            <img src="../assets/90s_style_background_with_pastel_geometric_shapes_generated.jpg" class="image"/>
-            
-            <h2 class="centered"> About me: The Lance Charles Schroeder story.</h2>
-
-            <img src="/assets/program-pic.JPG" alt="Picture of me, Lance Ryan. 27 Year old white male with brown hair and a beard. Thick rimmed black rectangular glasses. Wearing a purple shirt." class="program-pic">
-
-                <p class="centered">As of right now I am still in the introductory weeks of my classes on becoming a developer. I am not sure which area interests me the most, but I cannot wait to learn more. I have already learned so much. I first gained an interest in coding when I made my own games in the games creation system video game Dreams on the playstation 4. Since then my desire to create even more than just games has been expanding. I am more than excited to see what the future holds and to see endless possibilities coding will lead me to.</p>
-        </article>
+    <div class="footer">
+        <p>
+            Lance Charles Schroeder: First Portfolio. Attempt two
+        </p>
     </div>
-
 </body>
+
 </html>
